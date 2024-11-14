@@ -1,8 +1,9 @@
-*{
+*{ 
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: gilroy;
+    color: white;
 }
 
 html,body{
@@ -14,7 +15,7 @@ body{
     background-color: #000;
 }
 
-#box1{
+/* #box1{
     height: 200px;
     width: 200px;
     background-color: crimson;
@@ -26,3 +27,35 @@ body{
     background-color: lightseagreen;
 }
 
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+}
+
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+} */
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+
+#part2{
+    display: flex;
+    gap: 50px;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%); 
+    font-size: 80px;
+    white-space: nowrap;
+}
