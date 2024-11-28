@@ -20,6 +20,7 @@ imageDiv.addEventListener("mouseenter" , (dets) => {
     scale : 3
   })
 })
+
 imageDiv.addEventListener("mouseleave" , (dets) => {
   cursor.innerHTML = ``
   console.log("heyyy");
